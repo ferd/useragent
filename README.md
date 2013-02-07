@@ -71,3 +71,9 @@ Extending
 
 Send pull requests, make sure tests are not broken, add more if you can. Tests
 were taken from the original Java project, too.
+
+Changelog
+---------
+
+- 0.1.1: Adding support for Windows 8 user agents
+- 0.1.0: Initial Commit

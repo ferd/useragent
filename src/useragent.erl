@@ -278,6 +278,7 @@ os() ->
             manufacturer=blackberry, in=[<<"blackberry">>]},
     [%% Windows
      [Win,
+      Win#os{name= <<"Windows 8">>, in=[<<"windows nt 6.2">>], out=[]},
       Win#os{name= <<"Windows 7">>, in=[<<"windows nt 6.1">>], out=[]},
       Win#os{name= <<"Windows Vista">>, in=[<<"windows nt 6">>], out=[]},
       Win#os{name= <<"Windows 2000">>, in=[<<"windows nt 5.0">>], out=[]},

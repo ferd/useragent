@@ -71,7 +71,7 @@ parse(UA) -> parse(UA, utf8).
 parse(UA, Encoding) when is_list(UA) ->
     parse(iolist_to_binary(UA), Encoding);
 parse(UA, Encoding) ->
-    UALower = list_to_binary(string:to_lower(binary_to_list(unicode:characters_to_binary(UA, Encoding, latin1)))),
+    UALower = list_to_binary(string:to_lower(binary_to_list(characters_to_binary(UA, Encoding)))),
     [{browser, parse_browser(UALower, browsers())},
      {os, parse_os(UALower, os())},
      {string, UA}].
@@ -347,3 +347,9 @@ os() ->
      [#os{name= <<"Roku OS">>, family=roku, type=dmr, manufacturer=roku,
           in=[<<"roku">>]}]].
 
+characters_to_binary(Binary, Encoding) ->
+    case unicode:characters_to_binary(Binary, Encoding, latin1) of
+        {error, Result, _} -> Result;
+        {incomplete, Result, _} -> Result;
+        Result -> Result
+    end.

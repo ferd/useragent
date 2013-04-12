@@ -146,6 +146,49 @@ browsers() ->
         {<<"Firefox 6">>, firefox, web, mozilla, gecko, [
                 "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0a2) Gecko/20110612 Firefox/6.0a2"
             ]},
+        {<<"Firefox 14">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.2; rv:14.0) Gecko/20100101 Firefox/14.0.1",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.7; rv:14.0) Gecko/20120801 Firefox/14.0.1",
+                "Mozilla/5.0 (Windows NT 6.2; rv:14.0) Gecko/20100101 Firefox/14.0",
+                "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0"
+            ]},
+        {<<"Firefox 15">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.2; rv:15.0) Gecko/20100101 Firefox/15.0.1",
+                "Mozilla/5.0 (Windows NT 6.2; rv:15.0) Gecko/20100101 Firefox/15.0.1 AppEngine-Google; (+http://code.google.com/appengine; appid: slupanama13)",
+                "Mozilla/5.0 (chakra; rv:15.0) chakra kubuntu Gecko/20120825 Firefox/15.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:15.0) Gecko/20100101 Firefox/15.0.2.0 IceDragon/15.0.2.0"
+            ]},
+        {<<"Firefox 16">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0",
+                "Mozilla/5.0 (Windows NT 5.2; Win64; x64; rv:16.0) Gecko/20121026 Firefox/16.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/16.0 Firefox/16.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:16.0; WUID260bb86a94fb8ad07b7bbe87867a42ef; WTB619) Gecko/20100101 Firefox/16.0"
+            ]},
+        {<<"Firefox 17">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.2; rv:17.0) Gecko/20100101 Firefox/17.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:17.0) Gecko/17.0 Firefox/17.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:17.0) Gecko/17.0 Firefox/17.0 AppEngine-Google; (+http://code.google.com/appengine; appid: sharry96887)",
+                "Mozilla/5.0 (X11; DragonFly x8664; rv:17.0) Gecko/20121214 Firefox/17.0",
+                "Mozilla/5.0 (Mac OS X 10.7 Lion; rv:17.0) Gecko/20100101 Firefox/17.0"
+            ]},
+        {<<"Firefox 18">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8.3) Gecko/20120221 Firefox/18.0",
+                "Mozilla/6.0 (Windows NT 6.1; WOW64; rv:16.0.1) Gecko/20121011 Firefox/18.0.1 CentOS",
+                "Mozilla/5.0 (Windows NT 6.2; rv:18.0) Gecko/20100101 Firefox/18.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:18.0) Gecko/18.0 Firefox/18.0"
+            ]},
+        {<<"Firefox 19">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.2; rv:19.0) Gecko/20100101 Firefox/19.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:19.0) Gecko/20100101 Firefox/19.0 AlexaToolbar/alxf-2.17",
+                "Mozilla/5.0 (Windows NT 6.2; rv:19.0) Gecko/19.0 Firefox/19.0",
+                "Mozilla/5.0 (Android 4.2; rv:19.0) Gecko/20121129 Firefox/19.0"
+            ]},
+        {<<"Firefox 20">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.2; rv:20.0) Gecko/20.0 Firefox/20.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:20.0) Gecko/20121217 Firefox/20.0",
+                "Mozilla/5.0 (Windows NT 5.2; Win64; x64; rv:20.0) Gecko/20121218 Firefox/20.0",
+                "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20121215 Firefox/20.0 AppEngine-Google; (+http://code.google.com/appengine; appid: slubuntuk)"
+            ]},
         {<<"Firefox 3 Mobile">>, firefox, mobile, mozilla, gecko, [
                 "Mozilla/5.0 (X11; U; Linux armv7l; en-US; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900"
             ]},

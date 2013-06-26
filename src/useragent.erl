@@ -220,6 +220,8 @@ browsers() ->
      %% firefox
      [FF
       ,FF#browser{name= <<"Firefox 3 Mobile">>, type=mobile, in=[<<"firefox/3.5 maemo">>]}
+      ,FF#browser{name= <<"Firefox 22">>, in=[<<"firefox/22">>]}
+      ,FF#browser{name= <<"Firefox 21">>, in=[<<"firefox/21">>]}
       ,FF#browser{name= <<"Firefox 20">>, in=[<<"firefox/20">>]}
       ,FF#browser{name= <<"Firefox 19">>, in=[<<"firefox/19">>]}
       ,FF#browser{name= <<"Firefox 18">>, in=[<<"firefox/18">>]}

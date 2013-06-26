@@ -75,6 +75,7 @@ were taken from the original Java project, too.
 Changelog
 ---------
 
+- 0.1.3: Adding support for Firefox versions 21-22.
 - 0.1.2: Adding support for Firefox versions 14 to 20, better binary handling
 - 0.1.1: Adding support for Windows 8 user agents
 - 0.1.0: Initial Commit

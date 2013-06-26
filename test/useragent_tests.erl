@@ -189,6 +189,18 @@ browsers() ->
                 "Mozilla/5.0 (Windows NT 5.2; Win64; x64; rv:20.0) Gecko/20121218 Firefox/20.0",
                 "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20121215 Firefox/20.0 AppEngine-Google; (+http://code.google.com/appengine; appid: slubuntuk)"
             ]},
+        {<<"Firefox 21">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20130331 Firefox/21.0",
+                "Mozilla/5.0 (Windows NT 6.2; rv:21.0) Gecko/20130326 Firefox/21.0",
+                "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130401 Firefox/21.0",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0",
+                % merge 21.0.1 in 21
+                "Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0.1) Gecko/20121011 Firefox/21.0.1"
+            ]},
+        {<<"Firefox 22">>, firefox, web, mozilla, gecko, [
+                "Mozilla/5.0 (Windows NT 6.1; rv:22.0) Gecko/20130405 Firefox/22.0",
+                "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0"
+            ]},
         {<<"Firefox 3 Mobile">>, firefox, mobile, mozilla, gecko, [
                 "Mozilla/5.0 (X11; U; Linux armv7l; en-US; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900"
             ]},
